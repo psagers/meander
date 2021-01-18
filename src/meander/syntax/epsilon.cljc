@@ -629,11 +629,11 @@
         {:tag :quo
          :form (second xs)}
 
-        clojure.core/unquote
+        (clojure.core/unquote unquote)
         {:tag :unq
          :expr (second xs)}
 
-        clojure.core/unquote-splicing
+        (clojure.core/unquote-splicing unquote-splicing)
         {:tag :uns
          :expr (second xs)}
 
